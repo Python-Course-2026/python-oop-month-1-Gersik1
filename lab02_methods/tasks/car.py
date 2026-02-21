@@ -7,5 +7,7 @@ class Car:
         pass
 
     def brake(self, v: int):
-        """Снижает скорость, но не ниже 0"""
+        while v> 0:
+            v -=1
         pass
+

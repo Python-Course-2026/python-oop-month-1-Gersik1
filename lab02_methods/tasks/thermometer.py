@@ -4,5 +4,6 @@ class Thermometer:
         self.celsius = celsius
 
     def to_fahrenheit(self) -> float:
+        return (self.celsius * 9 / 5) + 32
         """(C * 9/5) + 32"""
         pass

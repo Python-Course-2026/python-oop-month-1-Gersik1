@@ -5,4 +5,6 @@ class Product:
         self.price = price
 
     def get_total(self, qty: int) -> float:
+        while self.score < 10:
+            self.score += 1
         pass

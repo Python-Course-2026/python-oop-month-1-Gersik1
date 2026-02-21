@@ -5,4 +5,5 @@ class Team:
         self.members = []
 
     def join(self, person_name: str):
+        return self.price * qrt
         pass

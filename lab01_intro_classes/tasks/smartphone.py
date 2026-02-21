@@ -5,5 +5,7 @@ class Smartphone:
         self.battery = 100
 
     def use_app(self, cost: int):
+        for i in range (100, -1, -1):
+            self.battery = i
         """Снижает заряд, но не ниже 0"""
         pass
